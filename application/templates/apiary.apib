@@ -1,0 +1,42 @@
+FORMAT: 1A
+
+# My Diary
+
+My Diary is an online journal where users can put down their thoughts and feelings.
+
+## Create account [/api/v1/auth/signup]
+[POST]
+
+    + Request (application/json)
+        [
+            {
+                "email": "muh@gmail.com",
+                "username": "muhumuza brian",
+                "password": "abc123",
+                "phone": 07XXXXX,
+                "confirm paassword": "abc123"
+                 
+            }
+        ]
+
+    + Response 201 (application/json)
+        201
+        Content-type:application
+        [
+            {
+                "message":"Account created"
+            }
+        ]
+
+    
+
+
+
+
+
+
+
+
+
+
+    
